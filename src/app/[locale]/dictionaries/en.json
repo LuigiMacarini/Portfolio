@@ -34,13 +34,12 @@
     "principlesLabel": "PRINCIPLES",
     "principles": [
       "Solve complexity with simplicity",
-      "Simple on the outside, solid on the inside",
       "Business and technology in the same sentence",
       "Ideas become products fast",
-      "AI integrated into the process, not just talk"
+      "AI integrated into the process"
     ],
     "photoLabel": "IMG_LUIGI.01",
-    "photoCaption": "AWAITING UPLOAD"
+    "photoCaption": "Photo"
   },
   "about": {
     "eyebrow": "/02 · ABOUT",
@@ -59,7 +58,7 @@
       },
       {
         "index": "03",
-        "title": "PRODUCT, NOT JUST CODE",
+        "title": "PRODUCT CONCEPTS",
         "description": "UX, scalability and maintenance are part of the technical decision, not an afterthought."
       }
     ],
@@ -86,13 +85,13 @@
       { "index": "01", "title": "PROBLEM", "description": "Understand the real problem before any solution." },
       { "index": "02", "title": "REQUIREMENTS GATHERING", "description": "Talk to the people who live the process and map what actually matters." },
       { "index": "03", "title": "SOLUTION MODELING", "description": "Design the flow before designing the screen." },
-      { "index": "04", "title": "UX", "description": "Simplicity for the user, even when the logic behind it is complex." },
+      { "index": "04", "title": "UX", "description": "Simplicity for the user." },
       { "index": "05", "title": "ARCHITECTURE", "description": "Technical decisions made for scale and maintenance, not just the deadline." },
-      { "index": "06", "title": "DEVELOPMENT", "description": "Clean, typed and testable code, without over engineering." },
+      { "index": "06", "title": "DEVELOPMENT", "description": "Clean, typed and testable code." },
       { "index": "07", "title": "AI TO ACCELERATE", "description": "AI in the process to gain speed, without giving up critical review." },
       { "index": "08", "title": "TESTING", "description": "Validate before the user has to validate it for me." },
-      { "index": "09", "title": "DEPLOY", "description": "Ship with CI/CD and a simple rollback, no drama." },
-      { "index": "10", "title": "MONITORING", "description": "Watch the system in production, not just ship and forget." }
+      { "index": "09", "title": "DEPLOY", "description": "Ship with CI/CD and a simple rollback." },
+      { "index": "10", "title": "MONITORING", "description": "Watch the system in production." }
     ]
   },
   "experience": {
@@ -164,14 +163,14 @@
       },
       {
         "name": "HOTEL MARAZUL",
-        "status": "IN PROTOTYPING",
+        "status": "IN ACTIVE USE",
         "active": true,
         "subtitle": "Hotel management system",
         "problem": "Small and medium hotels depend on spreadsheets and manual processes.",
         "solution": "Hotel management system, from reservations to daily operations.",
         "challenge": "Translating real hotel workflows into simple screens.",
         "tags": ["Figma", "React"],
-        "links": { "github": "", "live": "" }
+        "links": { "github": "https://github.com/Hotel-Marazul", "live": "" }
       },
       {
         "name": "GLPI MOBILE",
@@ -187,19 +186,19 @@
       {
         "name": "SUS CARD READER",
         "status": "INTERNAL TOOL",
-        "active": false,
+        "active": true,
         "subtitle": "OCR for SUS card identification",
         "problem": "Manual entry of the SUS card number causes errors and delays in service.",
         "solution": "Application with OCR that reads the card number directly from a photo.",
         "challenge": "Keeping accuracy under real camera and lighting conditions.",
         "tags": ["React", "Java", "OCR"],
-        "links": { "github": "", "live": "" }
+        "links": { "github": "https://github.com/LuigiMacarini/LeitorSUS", "live": "" }
       }
     ]
   },
   "stack": {
     "eyebrow": "/06 · STACK",
-    "heading": ["SYSTEM", "MAP"],
+    "heading": ["STACKS"],
     "map": {
       "loading": "INITIALIZING STACK MAP...",
       "online": "STACK MAP // ONLINE",
