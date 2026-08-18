@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "title": "Luigi Macarini · Full Stack Developer",
+    "description": "Portfolio of Luigi Macarini, full stack developer and business analyst. React, React Native, Node and AI applied to the development process."
+  },
+  "nav": {
+    "about": "ABOUT",
+    "process": "PROCESS",
+    "experience": "EXPERIENCE",
+    "projects": "PROJECTS",
+    "stack": "STACK",
+    "github": "GITHUB",
+    "contact": "CONTACT",
+    "resume": "RESUME"
+  },
+  "systemBar": {
+    "status": "OPEN TO PROJECTS",
+    "cta": "CONTACT"
+  },
+  "hero": {
+    "eyebrow": "/01 · PROFILE",
+    "kicker": "LUIGI MACARINI",
+    "headline": ["FULL STACK", "DEVELOPER."],
+    "tagline": "Fewer lines of code. Greater impact.",
+    "bio": "Computer Science student, in his final year, with hands on experience in web and mobile development. I use React, React Native, Node and AI to turn a business problem into a working product, from requirements gathering to deploy.",
+    "panel": [
+      { "label": "ROLE", "value": "JUNIOR FULL STACK DEVELOPER" },
+      { "label": "LOCATION", "value": "ARARANGUÁ, SC · BRAZIL" },
+      { "label": "STATUS", "value": "OPEN TO NEW PROJECTS" },
+      { "label": "CORE STACK", "value": "REACT · NODE · TYPESCRIPT" },
+      { "label": "EDUCATION", "value": "COMPUTER SCIENCE · FINAL YEAR" }
+    ],
+    "ctaPrimary": "VIEW PROJECTS",
+    "ctaSecondary": "TALK TO ME",
+    "principlesLabel": "PRINCIPLES",
+    "principles": [
+      "Solve complexity with simplicity",
+      "Simple on the outside, solid on the inside",
+      "Business and technology in the same sentence",
+      "Ideas become products fast",
+      "AI integrated into the process, not just talk"
+    ],
+    "photoLabel": "IMG_LUIGI.01",
+    "photoCaption": "AWAITING UPLOAD"
+  },
+  "about": {
+    "eyebrow": "/02 · ABOUT",
+    "heading": ["THE BRIDGE BETWEEN", "BUSINESS AND CODE"],
+    "body": "Before writing code I try to understand the problem. That view comes from working as a business analyst, combined with hands on full stack development. The result is a way of working that goes through requirements gathering, architecture and user experience before a single line of code, with AI applied through most of the process.",
+    "differentiators": [
+      {
+        "index": "01",
+        "title": "BUSINESS VISION",
+        "description": "Requirements gathering before architecture. Understanding the process avoids technical rework later."
+      },
+      {
+        "index": "02",
+        "title": "APPLIED AI",
+        "description": "AI integrated into the development cycle, from modeling to code, to speed up delivery without losing quality."
+      },
+      {
+        "index": "03",
+        "title": "PRODUCT, NOT JUST CODE",
+        "description": "UX, scalability and maintenance are part of the technical decision, not an afterthought."
+      }
+    ],
+    "education": {
+      "label": "EDUCATION",
+      "degree": "Bachelor's in Computer Science",
+      "school": "UNESC · Criciúma, SC",
+      "range": "02.2023 → PRESENT (final year)"
+    },
+    "certifications": {
+      "label": "CERTIFICATIONS",
+      "items": [
+        "Cambridge English B2 · 2019 → 2022",
+        "Udemy · Java, SpringBoot, JavaScript",
+        "Alura · React, React Native, MySQL"
+      ]
+    }
+  },
+  "process": {
+    "eyebrow": "/03 · HOW I THINK",
+    "heading": ["MY WORKING", "PROCESS"],
+    "intro": "Ten steps between understanding the problem and watching the solution run in production.",
+    "steps": [
+      { "index": "01", "title": "PROBLEM", "description": "Understand the real problem before any solution." },
+      { "index": "02", "title": "REQUIREMENTS GATHERING", "description": "Talk to the people who live the process and map what actually matters." },
+      { "index": "03", "title": "SOLUTION MODELING", "description": "Design the flow before designing the screen." },
+      { "index": "04", "title": "UX", "description": "Simplicity for the user, even when the logic behind it is complex." },
+      { "index": "05", "title": "ARCHITECTURE", "description": "Technical decisions made for scale and maintenance, not just the deadline." },
+      { "index": "06", "title": "DEVELOPMENT", "description": "Clean, typed and testable code, without over engineering." },
+      { "index": "07", "title": "AI TO ACCELERATE", "description": "AI in the process to gain speed, without giving up critical review." },
+      { "index": "08", "title": "TESTING", "description": "Validate before the user has to validate it for me." },
+      { "index": "09", "title": "DEPLOY", "description": "Ship with CI/CD and a simple rollback, no drama." },
+      { "index": "10", "title": "MONITORING", "description": "Watch the system in production, not just ship and forget." }
+    ]
+  },
+  "experience": {
+    "eyebrow": "/04 · EXPERIENCE",
+    "heading": ["WHERE BUSINESS", "MEETS TECHNOLOGY"],
+    "items": [
+      {
+        "company": "Thomson Reuters",
+        "role": "Business Analyst",
+        "location": "Criciúma, SC",
+        "range": "06.2025 → PRESENT",
+        "status": "ACTIVE",
+        "active": true,
+        "bullets": [
+          "Requirements gathering, analysis and detailing for corporate systems.",
+          "Technical impact assessment for changes, with direct support to the development team.",
+          "Collaboration with multidisciplinary teams in an agile environment.",
+          "Participation in defining and validating features.",
+          "Support for technical documentation and understanding of business flows."
+        ],
+        "tags": ["Requirements Gathering", "Agile Methodologies", "Technical Documentation", "Software Quality"]
+      },
+      {
+        "company": "Municipal Health Department",
+        "role": "React Native Developer",
+        "location": "Araranguá, SC",
+        "range": "06.2023 → 05.2025",
+        "status": "COMPLETED",
+        "active": false,
+        "bullets": [
+          "Development and maintenance of internal web and mobile applications.",
+          "Responsive interfaces integrated with REST APIs.",
+          "Bug fixes and operational support for internal systems.",
+          "Version control and team collaboration with Git."
+        ],
+        "tags": ["React", "React Native", "REST APIs", "Git"]
+      },
+      {
+        "company": "Luma",
+        "role": "Full Stack Architecture and Development",
+        "location": "Remote",
+        "range": "2025 → IN DEVELOPMENT",
+        "status": "IN DEVELOPMENT",
+        "active": true,
+        "bullets": [
+          "Responsible for the complete product architecture, from screen flows to user experience.",
+          "Development of the APIs, database, version control and deployments.",
+          "FemTech focused on women's health, with AI integrated into the product."
+        ],
+        "tags": ["Next.js", "React", "TypeScript", "Node.js", "PostgreSQL", "AI"]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "/05 · PROJECTS",
+    "heading": ["FEATURED", "PROJECTS"],
+    "labels": { "problem": "PROBLEM", "solution": "SOLUTION", "challenge": "CHALLENGE", "github": "GITHUB", "live": "VIEW LIVE", "soon": "COMING SOON" },
+    "items": [
+      {
+        "name": "LUMA",
+        "status": "IN DEVELOPMENT",
+        "active": true,
+        "subtitle": "FemTech focused on women's health",
+        "problem": "Few digital tools designed for continuous, accessible tracking of women's health.",
+        "solution": "Platform built from scratch: architecture, frontend, backend and AI.",
+        "challenge": "Designing a UX sensitive to the topic and modeling health data with privacy as a priority.",
+        "tags": ["Next.js", "React", "TypeScript", "Node.js", "PostgreSQL", "AI"],
+        "links": { "github": "https://github.com/LuigiMacarini/Luma", "live": "" }
+      },
+      {
+        "name": "HOTEL MARAZUL",
+        "status": "IN PROTOTYPING",
+        "active": true,
+        "subtitle": "Hotel management system",
+        "problem": "Small and medium hotels depend on spreadsheets and manual processes.",
+        "solution": "Hotel management system, from reservations to daily operations.",
+        "challenge": "Translating real hotel workflows into simple screens.",
+        "tags": ["Figma", "React"],
+        "links": { "github": "", "live": "" }
+      },
+      {
+        "name": "GLPI MOBILE",
+        "status": "IN ACTIVE USE",
+        "active": true,
+        "subtitle": "IT asset manager",
+        "problem": "Manual IT asset control, without centralized visibility for the team.",
+        "solution": "React Native app integrated with GLPI for mobile asset management.",
+        "challenge": "Integration with the GLPI API and reliable data synchronization.",
+        "tags": ["React Native", "TypeScript", "GLPI API"],
+        "links": { "github": "https://github.com/LuigiMacarini/Projeto-GLPI-Mobile", "live": "" }
+      },
+      {
+        "name": "SUS CARD READER",
+        "status": "INTERNAL TOOL",
+        "active": false,
+        "subtitle": "OCR for SUS card identification",
+        "problem": "Manual entry of the SUS card number causes errors and delays in service.",
+        "solution": "Application with OCR that reads the card number directly from a photo.",
+        "challenge": "Keeping accuracy under real camera and lighting conditions.",
+        "tags": ["React", "Java", "OCR"],
+        "links": { "github": "", "live": "" }
+      }
+    ]
+  },
+  "stack": {
+    "eyebrow": "/06 · STACK",
+    "heading": ["MY", "TOOLBOX"],
+    "categories": [
+      { "id": "all", "label": "ALL" },
+      { "id": "frontend", "label": "FRONTEND" },
+      { "id": "backend", "label": "BACKEND" },
+      { "id": "database", "label": "DATABASE" },
+      { "id": "tools", "label": "TOOLS" },
+      { "id": "ai", "label": "AI & PRODUCT" }
+    ],
+    "levels": { "core": "CORE", "advanced": "ADVANCED", "intermediate": "INTERMEDIATE" },
+    "items": [
+      { "name": "React", "category": "frontend", "level": "core", "description": "Components, hooks and state management." },
+      { "name": "React Native", "category": "frontend", "level": "core", "description": "Internal mobile and web apps in production." },
+      { "name": "Next.js", "category": "frontend", "level": "core", "description": "App Router, server components and hybrid rendering." },
+      { "name": "TypeScript", "category": "frontend", "level": "core", "description": "Static typing as the standard." },
+      { "name": "JavaScript", "category": "frontend", "level": "advanced", "description": "ES6+, async, DOM." },
+      { "name": "Tailwind CSS", "category": "frontend", "level": "core", "description": "Utility first design system." },
+      { "name": "HTML5", "category": "frontend", "level": "advanced", "description": "Semantics and accessibility." },
+      { "name": "CSS", "category": "frontend", "level": "advanced", "description": "Layout, animation, responsiveness." },
+      { "name": "Node.js", "category": "backend", "level": "core", "description": "APIs and services." },
+      { "name": "Java", "category": "backend", "level": "intermediate", "description": "SpringBoot, object oriented foundation." },
+      { "name": "Express", "category": "backend", "level": "advanced", "description": "Lightweight REST APIs." },
+      { "name": "NestJS", "category": "backend", "level": "intermediate", "description": "Modular, scalable architecture." },
+      { "name": "PostgreSQL", "category": "database", "level": "advanced", "description": "Relational modeling, data integrity." },
+      { "name": "MySQL", "category": "database", "level": "advanced", "description": "Relational modeling, optimized queries." },
+      { "name": "Git", "category": "tools", "level": "core", "description": "Version control and branching." },
+      { "name": "GitHub", "category": "tools", "level": "core", "description": "Repository and collaboration." },
+      { "name": "Vercel", "category": "tools", "level": "advanced", "description": "Continuous deployment and previews." },
+      { "name": "Figma", "category": "tools", "level": "intermediate", "description": "Prototypes and UX handoff." },
+      { "name": "Postman", "category": "tools", "level": "advanced", "description": "API testing and documentation." },
+      { "name": "VS Code", "category": "tools", "level": "core", "description": "Main development environment." },
+      { "name": "Prompt Engineering", "category": "ai", "level": "core", "description": "Steering models toward a consistent result." },
+      { "name": "Generative AI", "category": "ai", "level": "core", "description": "Models integrated into a real product." },
+      { "name": "Automation", "category": "ai", "level": "advanced", "description": "Eliminating repetitive work." },
+      { "name": "Software Architecture", "category": "ai", "level": "advanced", "description": "Technical decisions made for scale." },
+      { "name": "Requirements Gathering", "category": "ai", "level": "core", "description": "Translating business needs into specification." },
+      { "name": "Product UX", "category": "ai", "level": "advanced", "description": "User experience as part of the technical problem." }
+    ]
+  },
+  "github": {
+    "eyebrow": "/07 · GITHUB",
+    "heading": ["REAL TIME", "ACTIVITY"],
+    "username": "LuigiMacarini",
+    "stats": { "repos": "PUBLIC REPOSITORIES", "followers": "FOLLOWERS", "stars": "STARS RECEIVED" },
+    "languagesLabel": "MOST USED LANGUAGES",
+    "featuredLabel": "FEATURED REPOSITORIES",
+    "note": "Automatically updated via the public GitHub API.",
+    "viewProfile": "VIEW FULL PROFILE",
+    "unavailable": "Could not load the data right now. Try again shortly or visit the profile directly."
+  },
+  "contact": {
+    "eyebrow": "/08 · CONTACT",
+    "heading": ["LET'S", "TALK"],
+    "body": "New project, opportunity or a conversation about product and AI. Send a message.",
+    "form": {
+      "name": "NAME",
+      "email": "EMAIL",
+      "company": "COMPANY (OPTIONAL)",
+      "message": "MESSAGE",
+      "submit": "SEND MESSAGE",
+      "sending": "SENDING",
+      "success": "Message sent. I will get back to you soon.",
+      "error": "Something went wrong. Try again or email me directly.",
+      "fallback": "Open in your email app to finish sending."
+    },
+    "altHeading": "OR FIND ME ON"
+  },
+  "footer": {
+    "tagline": "Turning complex problems into simple products, with Artificial Intelligence.",
+    "navHeading": "NAVIGATION",
+    "networksHeading": "NETWORKS",
+    "otherHeading": "OTHER",
+    "backToTop": "BACK TO TOP",
+    "rights": "All rights reserved.",
+    "statusStrip": "CONNECTION SECURE"
+  }
+}

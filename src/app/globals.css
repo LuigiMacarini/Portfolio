@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0a0a0a;
+  --color-paper: #f7f7f3;
+  --color-signal: #d7ff3e;
+  --color-signal-ink: #16210a;
+  --color-danger: #e8483a;
+
+  --color-line: #0a0a0a1f;
+  --color-line-strong: #0a0a0a3d;
+
+  --color-mist-50: #f1f1ec;
+  --color-mist-100: #e3e3db;
+  --color-mist-200: #c8c8bd;
+  --color-mist-300: #a3a396;
+  --color-mist-400: #72726a;
+  --color-mist-500: #4a4a44;
+  --color-mist-600: #2a2a26;
+
+  --font-display: var(--font-space-grotesk), "Arial Narrow", sans-serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), "Courier New", monospace;
+
+  --animate-blink: blink 1.6s step-end infinite;
+
+  @keyframes blink {
+    0%,
+    45% {
+      opacity: 1;
+    }
+    50%,
+    100% {
+      opacity: 0;
+    }
+  }
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  background: var(--color-paper);
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-feature-settings: "ss01" 1;
+}
+
+::selection {
+  background: var(--color-signal);
+  color: var(--color-signal-ink);
+}
+
+* {
+  scrollbar-color: var(--color-mist-300) transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

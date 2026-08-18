@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "title": "Luigi Macarini · Desenvolvedor Full Stack",
+    "description": "Portfólio de Luigi Macarini, desenvolvedor full stack e analista de negócios. React, React Native, Node e IA aplicada ao processo de desenvolvimento."
+  },
+  "nav": {
+    "about": "SOBRE",
+    "process": "PROCESSO",
+    "experience": "EXPERIÊNCIA",
+    "projects": "PROJETOS",
+    "stack": "STACK",
+    "github": "GITHUB",
+    "contact": "CONTATO",
+    "resume": "CURRÍCULO"
+  },
+  "systemBar": {
+    "status": "ABERTO A PROJETOS",
+    "cta": "CONTATO"
+  },
+  "hero": {
+    "eyebrow": "/01 · PERFIL",
+    "kicker": "LUIGI MACARINI",
+    "headline": ["DESENVOLVEDOR", "FULL STACK."],
+    "tagline": "Menos linhas de código. Mais impacto.",
+    "bio": "Estudante de Ciência da Computação, na 8ª fase, com experiência prática em desenvolvimento web e mobile. Uso React, React Native, Node e IA para transformar problema de negócio em produto funcional, do levantamento de requisitos ao deploy.",
+    "panel": [
+      { "label": "CARGO", "value": "DESENVOLVEDOR FULL STACK JR" },
+      { "label": "LOCAL", "value": "ARARANGUÁ, SC · BR" },
+      { "label": "STATUS", "value": "ABERTO A NOVOS PROJETOS" },
+      { "label": "STACK CORE", "value": "REACT · NODE · TYPESCRIPT" },
+      { "label": "FORMAÇÃO", "value": "CIÊNCIA DA COMPUTAÇÃO · 8ª FASE" }
+    ],
+    "ctaPrimary": "VER PROJETOS",
+    "ctaSecondary": "FALAR COMIGO",
+    "principlesLabel": "PRINCÍPIOS",
+    "principles": [
+      "Resolver complexidade com simplicidade",
+      "Simples por fora, sólido por dentro",
+      "Negócio e tecnologia na mesma frase",
+      "Ideia vira produto rápido",
+      "IA integrada ao processo, não só discurso"
+    ],
+    "photoLabel": "IMG_LUIGI.01",
+    "photoCaption": "AGUARDANDO UPLOAD"
+  },
+  "about": {
+    "eyebrow": "/02 · SOBRE",
+    "heading": ["A PONTE ENTRE", "NEGÓCIO E CÓDIGO"],
+    "body": "Antes de escrever código eu procuro entender o problema. Essa visão vem da experiência como analista de negócios, cruzada com a prática de desenvolvimento full stack. O resultado é um jeito de trabalhar que passa por levantamento de requisitos, arquitetura e experiência do usuário antes de qualquer linha de código, com IA aplicada em boa parte do processo.",
+    "differentiators": [
+      {
+        "index": "01",
+        "title": "VISÃO DE NEGÓCIO",
+        "description": "Levantamento de requisitos antes da arquitetura. Entender o processo evita retrabalho técnico depois."
+      },
+      {
+        "index": "02",
+        "title": "IA APLICADA",
+        "description": "IA integrada ao ciclo de desenvolvimento, da modelagem ao código, para acelerar entrega sem perder qualidade."
+      },
+      {
+        "index": "03",
+        "title": "PRODUTO, NÃO SÓ CÓDIGO",
+        "description": "UX, escalabilidade e manutenção fazem parte da decisão técnica, não são detalhe posterior."
+      }
+    ],
+    "education": {
+      "label": "FORMAÇÃO",
+      "degree": "Bacharelado em Ciência da Computação",
+      "school": "UNESC · Criciúma, SC",
+      "range": "02.2023 → ATUAL (8ª fase)"
+    },
+    "certifications": {
+      "label": "CERTIFICAÇÕES",
+      "items": [
+        "Cambridge English B2 · 2019 → 2022",
+        "Udemy · Java, SpringBoot, JavaScript",
+        "Alura · React, React Native, MySQL"
+      ]
+    }
+  },
+  "process": {
+    "eyebrow": "/03 · COMO EU PENSO",
+    "heading": ["MEU PROCESSO", "DE TRABALHO"],
+    "intro": "Dez etapas entre entender o problema e acompanhar a solução em produção.",
+    "steps": [
+      { "index": "01", "title": "PROBLEMA", "description": "Entender o problema real antes de qualquer solução." },
+      { "index": "02", "title": "LEVANTAMENTO DE REQUISITOS", "description": "Conversar com quem vive o processo e mapear o que realmente importa." },
+      { "index": "03", "title": "MODELAGEM DA SOLUÇÃO", "description": "Desenhar o fluxo antes de desenhar a tela." },
+      { "index": "04", "title": "UX", "description": "Simplicidade para quem usa, mesmo quando a lógica por trás é complexa." },
+      { "index": "05", "title": "ARQUITETURA", "description": "Decisões técnicas pensando em escala e manutenção, não só no prazo." },
+      { "index": "06", "title": "DESENVOLVIMENTO", "description": "Código limpo, tipado e testável, sem over engineering." },
+      { "index": "07", "title": "IA PARA ACELERAR", "description": "IA no processo para ganhar velocidade, sem abrir mão de revisão crítica." },
+      { "index": "08", "title": "TESTES", "description": "Validar antes que o usuário precise validar por mim." },
+      { "index": "09", "title": "DEPLOY", "description": "Publicar com CI/CD e rollback simples, sem drama." },
+      { "index": "10", "title": "MONITORAMENTO", "description": "Acompanhar o sistema em produção, não só entregar e esquecer." }
+    ]
+  },
+  "experience": {
+    "eyebrow": "/04 · EXPERIÊNCIA",
+    "heading": ["ONDE NEGÓCIO", "ENCONTRA TECNOLOGIA"],
+    "items": [
+      {
+        "company": "Thomson Reuters",
+        "role": "Analista de Negócios",
+        "location": "Criciúma, SC",
+        "range": "06.2025 → ATUAL",
+        "status": "ATIVO",
+        "active": true,
+        "bullets": [
+          "Levantamento, análise e detalhamento de requisitos para sistemas corporativos.",
+          "Avaliação do impacto técnico de mudanças, com apoio direto ao time de desenvolvimento.",
+          "Colaboração com equipes multidisciplinares em ambiente ágil.",
+          "Participação na definição e validação de funcionalidades.",
+          "Apoio à documentação técnica e ao entendimento dos fluxos de negócio."
+        ],
+        "tags": ["Levantamento de Requisitos", "Metodologias Ágeis", "Documentação Técnica", "Qualidade de Software"]
+      },
+      {
+        "company": "Secretaria Municipal da Saúde",
+        "role": "Desenvolvedor React Native",
+        "location": "Araranguá, SC",
+        "range": "06.2023 → 05.2025",
+        "status": "CONCLUÍDO",
+        "active": false,
+        "bullets": [
+          "Desenvolvimento e manutenção de aplicações internas web e mobile.",
+          "Interfaces responsivas com integração a APIs REST.",
+          "Correção de bugs e suporte operacional aos sistemas.",
+          "Versionamento e colaboração em equipe com Git."
+        ],
+        "tags": ["React", "React Native", "APIs REST", "Git"]
+      },
+      {
+        "company": "Luma",
+        "role": "Arquitetura e Desenvolvimento Full Stack",
+        "location": "Remoto",
+        "range": "2025 → EM DESENVOLVIMENTO",
+        "status": "EM DESENVOLVIMENTO",
+        "active": true,
+        "bullets": [
+          "Responsável pela arquitetura completa do produto, dos fluxos de tela à experiência de usuário.",
+          "Desenvolvimento das APIs, banco de dados, versionamento e deploys.",
+          "FemTech focada em saúde da mulher, com IA integrada ao produto."
+        ],
+        "tags": ["Next.js", "React", "TypeScript", "Node.js", "PostgreSQL", "IA"]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "/05 · PROJETOS",
+    "heading": ["PROJETOS EM", "DESTAQUE"],
+    "labels": { "problem": "PROBLEMA", "solution": "SOLUÇÃO", "challenge": "DESAFIO", "github": "GITHUB", "live": "VER AO VIVO", "soon": "EM BREVE" },
+    "items": [
+      {
+        "name": "LUMA",
+        "status": "EM DESENVOLVIMENTO",
+        "active": true,
+        "subtitle": "FemTech focada em saúde da mulher",
+        "problem": "Poucas ferramentas digitais pensadas para acompanhamento contínuo e acessível da saúde da mulher.",
+        "solution": "Plataforma construída do zero: arquitetura, frontend, backend e IA.",
+        "challenge": "Desenhar uma UX sensível ao tema e modelar dados de saúde com privacidade como prioridade.",
+        "tags": ["Next.js", "React", "TypeScript", "Node.js", "PostgreSQL", "IA"],
+        "links": { "github": "https://github.com/LuigiMacarini/Luma", "live": "" }
+      },
+      {
+        "name": "HOTEL MARAZUL",
+        "status": "EM PROTOTIPAGEM",
+        "active": true,
+        "subtitle": "Sistema de gestão hoteleira",
+        "problem": "Hotéis pequenos e médios dependem de planilhas e processos manuais.",
+        "solution": "Sistema de gestão hoteleira, das reservas à operação diária.",
+        "challenge": "Traduzir fluxos reais de um hotel em telas simples.",
+        "tags": ["Figma", "React"],
+        "links": { "github": "", "live": "" }
+      },
+      {
+        "name": "GLPI MOBILE",
+        "status": "EM USO ATIVO",
+        "active": true,
+        "subtitle": "Gestor de ativos de TI",
+        "problem": "Controle manual de ativos de TI, sem visibilidade centralizada para a equipe.",
+        "solution": "App em React Native integrado ao GLPI para gestão de ativos pelo celular.",
+        "challenge": "Integração com a API do GLPI e sincronização confiável dos dados.",
+        "tags": ["React Native", "TypeScript", "GLPI API"],
+        "links": { "github": "https://github.com/LuigiMacarini/Projeto-GLPI-Mobile", "live": "" }
+      },
+      {
+        "name": "LEITOR DE CARTÃO SUS",
+        "status": "FERRAMENTA INTERNA",
+        "active": false,
+        "subtitle": "OCR para identificação do Cartão SUS",
+        "problem": "Digitação manual do número do Cartão SUS causa erro e atraso no atendimento.",
+        "solution": "Aplicação com OCR que lê o número do cartão direto da foto.",
+        "challenge": "Manter precisão em condição real de câmera e iluminação.",
+        "tags": ["React", "Java", "OCR"],
+        "links": { "github": "", "live": "" }
+      }
+    ]
+  },
+  "stack": {
+    "eyebrow": "/06 · STACK",
+    "heading": ["MINHA CAIXA", "DE FERRAMENTAS"],
+    "categories": [
+      { "id": "all", "label": "TODAS" },
+      { "id": "frontend", "label": "FRONTEND" },
+      { "id": "backend", "label": "BACKEND" },
+      { "id": "database", "label": "BANCO DE DADOS" },
+      { "id": "tools", "label": "FERRAMENTAS" },
+      { "id": "ai", "label": "IA & PRODUTO" }
+    ],
+    "levels": { "core": "PRINCIPAL", "advanced": "AVANÇADO", "intermediate": "INTERMEDIÁRIO" },
+    "items": [
+      { "name": "React", "category": "frontend", "level": "core", "description": "Componentes, hooks e gerenciamento de estado." },
+      { "name": "React Native", "category": "frontend", "level": "core", "description": "Apps mobile e web internos em produção." },
+      { "name": "Next.js", "category": "frontend", "level": "core", "description": "App Router, server components e renderização híbrida." },
+      { "name": "TypeScript", "category": "frontend", "level": "core", "description": "Tipagem estática como padrão." },
+      { "name": "JavaScript", "category": "frontend", "level": "advanced", "description": "ES6+, assíncrono, DOM." },
+      { "name": "Tailwind CSS", "category": "frontend", "level": "core", "description": "Sistema de design utilitário." },
+      { "name": "HTML5", "category": "frontend", "level": "advanced", "description": "Semântica e acessibilidade." },
+      { "name": "CSS", "category": "frontend", "level": "advanced", "description": "Layout, animação, responsividade." },
+      { "name": "Node.js", "category": "backend", "level": "core", "description": "APIs e serviços." },
+      { "name": "Java", "category": "backend", "level": "intermediate", "description": "SpringBoot, base de orientação a objetos." },
+      { "name": "Express", "category": "backend", "level": "advanced", "description": "APIs REST leves." },
+      { "name": "NestJS", "category": "backend", "level": "intermediate", "description": "Arquitetura modular e escalável." },
+      { "name": "PostgreSQL", "category": "database", "level": "advanced", "description": "Modelagem relacional, integridade de dados." },
+      { "name": "MySQL", "category": "database", "level": "advanced", "description": "Modelagem relacional, queries otimizadas." },
+      { "name": "Git", "category": "tools", "level": "core", "description": "Versionamento e branching." },
+      { "name": "GitHub", "category": "tools", "level": "core", "description": "Repositório e colaboração." },
+      { "name": "Vercel", "category": "tools", "level": "advanced", "description": "Deploy contínuo e preview." },
+      { "name": "Figma", "category": "tools", "level": "intermediate", "description": "Protótipo e handoff de UX." },
+      { "name": "Postman", "category": "tools", "level": "advanced", "description": "Teste e documentação de API." },
+      { "name": "VS Code", "category": "tools", "level": "core", "description": "Ambiente principal de desenvolvimento." },
+      { "name": "Prompt Engineering", "category": "ai", "level": "core", "description": "Direcionar modelos para resultado consistente." },
+      { "name": "IA Generativa", "category": "ai", "level": "core", "description": "Modelo integrado a produto real." },
+      { "name": "Automações", "category": "ai", "level": "advanced", "description": "Eliminar trabalho repetitivo." },
+      { "name": "Arquitetura de Software", "category": "ai", "level": "advanced", "description": "Decisão técnica pensando em escala." },
+      { "name": "Levantamento de Requisitos", "category": "ai", "level": "core", "description": "Traduzir necessidade de negócio em especificação." },
+      { "name": "Product UX", "category": "ai", "level": "advanced", "description": "Experiência do usuário como parte do problema técnico." }
+    ]
+  },
+  "github": {
+    "eyebrow": "/07 · GITHUB",
+    "heading": ["ATIVIDADE EM", "TEMPO REAL"],
+    "username": "LuigiMacarini",
+    "stats": { "repos": "REPOSITÓRIOS PÚBLICOS", "followers": "SEGUIDORES", "stars": "ESTRELAS RECEBIDAS" },
+    "languagesLabel": "LINGUAGENS MAIS USADAS",
+    "featuredLabel": "REPOSITÓRIOS EM DESTAQUE",
+    "note": "Atualizado automaticamente via API pública do GitHub.",
+    "viewProfile": "VER PERFIL COMPLETO",
+    "unavailable": "Não deu pra carregar os dados agora. Tenta de novo em instantes ou acessa o perfil direto."
+  },
+  "contact": {
+    "eyebrow": "/08 · CONTATO",
+    "heading": ["VAMOS", "CONVERSAR"],
+    "body": "Projeto novo, oportunidade ou uma conversa sobre produto e IA. Manda uma mensagem.",
+    "form": {
+      "name": "NOME",
+      "email": "EMAIL",
+      "company": "EMPRESA (OPCIONAL)",
+      "message": "MENSAGEM",
+      "submit": "ENVIAR MENSAGEM",
+      "sending": "ENVIANDO",
+      "success": "Mensagem enviada. Retorno em breve.",
+      "error": "Algo deu errado. Tenta de novo ou manda um email direto.",
+      "fallback": "Abrir no seu email para concluir o envio."
+    },
+    "altHeading": "OU ME ENCONTRE EM"
+  },
+  "footer": {
+    "tagline": "Transformando problema complexo em produto simples, com Inteligência Artificial.",
+    "navHeading": "NAVEGAÇÃO",
+    "networksHeading": "REDES",
+    "otherHeading": "OUTROS",
+    "backToTop": "VOLTAR AO TOPO",
+    "rights": "Todos os direitos reservados.",
+    "statusStrip": "CONEXÃO SEGURA"
+  }
+}
