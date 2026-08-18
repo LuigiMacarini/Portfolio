@@ -21,7 +21,6 @@
     "eyebrow": "/01 · PERFIL",
     "kicker": "LUIGI MACARINI",
     "headline": ["DESENVOLVEDOR", "FULL STACK."],
-    "tagline": "Menos linhas de código. Mais impacto.",
     "bio": "Estudante de Ciência da Computação, na 8ª fase, com experiência prática em desenvolvimento web e mobile. Uso React, React Native, Node e IA para transformar problema de negócio em produto funcional, do levantamento de requisitos ao deploy.",
     "panel": [
       { "label": "CARGO", "value": "DESENVOLVEDOR FULL STACK JR" },
@@ -268,12 +267,16 @@
     "altHeading": "OU ME ENCONTRE EM"
   },
   "footer": {
+    "ctaHeading": ["PRONTO PARA", "CONSTRUIR ALGO?"],
+    "ctaButton": "INICIAR PROJETO",
     "tagline": "Transformando problema complexo em produto simples, com Inteligência Artificial.",
     "navHeading": "NAVEGAÇÃO",
     "networksHeading": "REDES",
+    "systemHeading": "SISTEMA",
     "otherHeading": "OUTROS",
     "backToTop": "VOLTAR AO TOPO",
     "rights": "Todos os direitos reservados.",
-    "statusStrip": "CONEXÃO SEGURA"
+    "statusStrip": "CONEXÃO SEGURA",
+    "systemComplete": "PORTFOLIO // SISTEMA COMPLETO"
   }
 }

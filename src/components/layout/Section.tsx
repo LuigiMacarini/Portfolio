@@ -5,6 +5,7 @@ interface SectionProps extends HTMLAttributes<HTMLElement> {
   tone?: "paper" | "ink";
   contentClassName?: string;
   children: ReactNode;
+  as?: "section" | "footer";
 }
 
 const COLUMN_COUNT = 12;
@@ -15,12 +16,13 @@ export function Section({
   className,
   contentClassName,
   children,
+  as: Tag = "section",
   ...props
 }: SectionProps) {
   const isInk = tone === "ink";
 
   return (
-    <section
+    <Tag
       id={id}
       className={cn(
         "relative border-t",
@@ -52,6 +54,6 @@ export function Section({
       >
         {children}
       </div>
-    </section>
+    </Tag>
   );
 }

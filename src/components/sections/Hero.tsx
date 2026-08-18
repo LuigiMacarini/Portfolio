@@ -1,6 +1,7 @@
 import { Reveal } from "@/components/ui/Reveal";
 import { Button } from "@/components/ui/Button";
 import { PhotoFrame } from "@/components/ui/PhotoFrame";
+import { DecryptText } from "@/components/ui/DecryptText";
 import { Section } from "@/components/layout/Section";
 import type { Dictionary } from "@/app/[locale]/dictionaries";
 
@@ -19,15 +20,10 @@ export function Hero({ dict }: { dict: Dictionary["hero"] }) {
           </Reveal>
           <Reveal delay={100}>
             <h1 className="mt-3 break-words font-display text-4xl font-medium uppercase leading-[0.92] tracking-tight sm:text-5xl md:text-7xl lg:text-6xl xl:text-8xl">
-              {dict.headline.map((line) => (
-                <span key={line} className="block">
-                  {line}
-                </span>
+              {dict.headline.map((line, index) => (
+                <DecryptText key={line} text={line} delay={index * 120} className="block" />
               ))}
             </h1>
-          </Reveal>
-          <Reveal delay={160}>
-            <p className="mt-6 max-w-md font-display text-xl text-mist-600">{dict.tagline}</p>
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 max-w-lg text-base leading-relaxed text-mist-600">{dict.bio}</p>

@@ -61,19 +61,19 @@ export function Contact({ dict }: { dict: Dictionary["contact"] }) {
   }
 
   return (
-    <Section id="contact">
+    <Section id="contact" tone="ink">
       <div className="grid grid-cols-1 gap-14 lg:grid-cols-12">
         <div className="lg:col-span-5">
           <Reveal>
-            <SectionHeading eyebrow={dict.eyebrow} heading={dict.heading} />
+            <SectionHeading eyebrow={dict.eyebrow} heading={dict.heading} muted />
           </Reveal>
           <Reveal delay={80}>
-            <p className="mt-6 max-w-sm text-base leading-relaxed text-mist-600">{dict.body}</p>
+            <p className="mt-6 max-w-sm text-base leading-relaxed text-paper/70">{dict.body}</p>
           </Reveal>
 
           <Reveal delay={140}>
             <div className="mt-12">
-              <p className="font-mono text-[10px] uppercase tracking-wider text-mist-400">
+              <p className="font-mono text-[10px] uppercase tracking-wider text-paper/40">
                 {dict.altHeading}
               </p>
               <ul className="mt-4 flex flex-col gap-3">
@@ -83,7 +83,7 @@ export function Contact({ dict }: { dict: Dictionary["contact"] }) {
                       href={social.href}
                       target={social.href.startsWith("http") ? "_blank" : undefined}
                       rel={social.href.startsWith("http") ? "noreferrer noopener" : undefined}
-                      className="inline-flex items-center gap-2 font-display text-lg uppercase tracking-tight transition-colors hover:text-signal-ink"
+                      className="inline-flex items-center gap-2 font-display text-lg uppercase tracking-tight transition-colors hover:text-signal"
                     >
                       {social.label} <span aria-hidden>↗</span>
                     </a>
@@ -92,7 +92,7 @@ export function Contact({ dict }: { dict: Dictionary["contact"] }) {
                 <li>
                   <a
                     href={`mailto:${RESUME_EMAIL}`}
-                    className="inline-flex items-center gap-2 font-display text-lg uppercase tracking-tight transition-colors hover:text-signal-ink"
+                    className="inline-flex items-center gap-2 font-display text-lg uppercase tracking-tight transition-colors hover:text-signal"
                   >
                     {RESUME_EMAIL} <span aria-hidden>↗</span>
                   </a>
@@ -103,23 +103,23 @@ export function Contact({ dict }: { dict: Dictionary["contact"] }) {
         </div>
 
         <Reveal delay={100} className="lg:col-span-7">
-          <form onSubmit={handleSubmit} className="border border-line">
-            <div className="grid grid-cols-1 divide-y divide-line sm:grid-cols-2 sm:divide-x sm:divide-y-0">
+          <form onSubmit={handleSubmit} className="border border-paper/15">
+            <div className="grid grid-cols-1 divide-y divide-paper/15 sm:grid-cols-2 sm:divide-x sm:divide-y-0">
               <Field label={dict.form.name} name="name" autoComplete="name" required />
               <Field label={dict.form.email} name="email" type="email" autoComplete="email" required />
             </div>
-            <div className="border-t border-line">
+            <div className="border-t border-paper/15">
               <Field label={dict.form.company} name="company" autoComplete="organization" />
             </div>
-            <div className="border-t border-line p-5">
+            <div className="border-t border-paper/15 p-5">
               <div className="flex items-center justify-between">
                 <label
                   htmlFor="message"
-                  className="font-mono text-[10px] uppercase tracking-wider text-mist-400"
+                  className="font-mono text-[10px] uppercase tracking-wider text-paper/40"
                 >
                   {dict.form.message}
                 </label>
-                <span className="font-mono text-[10px] text-mist-400">
+                <span className="font-mono text-[10px] text-paper/40">
                   {message.length}/{MESSAGE_LIMIT}
                 </span>
               </div>
@@ -131,22 +131,22 @@ export function Contact({ dict }: { dict: Dictionary["contact"] }) {
                 maxLength={MESSAGE_LIMIT}
                 value={message}
                 onChange={(event) => setMessage(event.target.value)}
-                className="mt-2 w-full resize-none bg-transparent font-sans text-sm text-ink outline-none transition-colors focus:bg-mist-50 placeholder:text-mist-300"
+                className="mt-2 w-full resize-none bg-transparent font-sans text-sm text-paper outline-none transition-colors focus:bg-paper/5 placeholder:text-paper/30"
               />
             </div>
-            <div className="flex flex-wrap items-center justify-between gap-4 border-t border-line p-5">
-              <Button type="submit" variant="solid" disabled={status === "sending"}>
+            <div className="flex flex-wrap items-center justify-between gap-4 border-t border-paper/15 p-5">
+              <Button type="submit" variant="signal" disabled={status === "sending"}>
                 {status === "sending" ? dict.form.sending : dict.form.submit}
               </Button>
               {status === "success" && (
-                <p className="font-mono text-xs uppercase tracking-wide text-signal-ink">
+                <p className="font-mono text-xs uppercase tracking-wide text-signal">
                   {dict.form.success}
                 </p>
               )}
               {status === "fallback" && (
                 <a
                   href={fallbackHref}
-                  className="font-mono text-xs uppercase tracking-wide text-signal-ink underline underline-offset-4"
+                  className="font-mono text-xs uppercase tracking-wide text-signal underline underline-offset-4"
                 >
                   {dict.form.fallback} ↗
                 </a>
@@ -179,9 +179,9 @@ function Field({
 }) {
   return (
     <div className="p-5">
-      <label htmlFor={name} className="font-mono text-[10px] uppercase tracking-wider text-mist-400">
+      <label htmlFor={name} className="font-mono text-[10px] uppercase tracking-wider text-paper/40">
         {label}
-        {required && <span className="text-signal-ink"> *</span>}
+        {required && <span className="text-signal"> *</span>}
       </label>
       <input
         id={name}
@@ -189,7 +189,7 @@ function Field({
         type={type}
         required={required}
         autoComplete={autoComplete}
-        className="mt-2 w-full bg-transparent font-sans text-sm text-ink outline-none transition-colors focus:bg-mist-50 placeholder:text-mist-300"
+        className="mt-2 w-full bg-transparent font-sans text-sm text-paper outline-none transition-colors focus:bg-paper/5 placeholder:text-paper/30"
       />
     </div>
   );

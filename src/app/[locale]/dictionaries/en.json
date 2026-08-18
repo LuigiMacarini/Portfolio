@@ -21,7 +21,6 @@
     "eyebrow": "/01 · PROFILE",
     "kicker": "LUIGI MACARINI",
     "headline": ["FULL STACK", "DEVELOPER."],
-    "tagline": "Fewer lines of code. Greater impact.",
     "bio": "Computer Science student, in his final year, with hands on experience in web and mobile development. I use React, React Native, Node and AI to turn a business problem into a working product, from requirements gathering to deploy.",
     "panel": [
       { "label": "ROLE", "value": "JUNIOR FULL STACK DEVELOPER" },
@@ -268,12 +267,16 @@
     "altHeading": "OR FIND ME ON"
   },
   "footer": {
+    "ctaHeading": ["READY TO", "BUILD SOMETHING?"],
+    "ctaButton": "START A PROJECT",
     "tagline": "Turning complex problems into simple products, with Artificial Intelligence.",
     "navHeading": "NAVIGATION",
     "networksHeading": "NETWORKS",
+    "systemHeading": "SYSTEM",
     "otherHeading": "OTHER",
     "backToTop": "BACK TO TOP",
     "rights": "All rights reserved.",
-    "statusStrip": "CONNECTION SECURE"
+    "statusStrip": "CONNECTION SECURE",
+    "systemComplete": "PORTFOLIO // SYSTEM COMPLETE"
   }
 }

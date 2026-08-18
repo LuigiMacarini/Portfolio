@@ -5,15 +5,15 @@ import type { Dictionary } from "@/app/[locale]/dictionaries";
 
 export function Process({ dict }: { dict: Dictionary["process"] }) {
   return (
-    <Section id="process" tone="ink">
+    <Section id="process">
       <Reveal>
-        <SectionHeading eyebrow={dict.eyebrow} heading={dict.heading} muted />
+        <SectionHeading eyebrow={dict.eyebrow} heading={dict.heading} />
       </Reveal>
       <Reveal delay={80}>
-        <p className="mt-6 max-w-md text-sm text-paper/60">{dict.intro}</p>
+        <p className="mt-6 max-w-md text-sm text-mist-600">{dict.intro}</p>
       </Reveal>
 
-      <ol className="mt-14 border-l border-paper/15 pl-8 md:pl-12">
+      <ol className="mt-14 border-l border-line pl-8 md:pl-12">
         {dict.steps.map((step, index) => (
           <Reveal key={step.index} delay={index * 50}>
             <li className="pb-10 last:pb-0">
@@ -25,7 +25,7 @@ export function Process({ dict }: { dict: Dictionary["process"] }) {
                   {step.title}
                 </h3>
               </div>
-              <p className="mt-2 max-w-lg text-sm leading-relaxed text-paper/60">
+              <p className="mt-2 max-w-lg text-sm leading-relaxed text-mist-600">
                 {step.description}
               </p>
             </li>

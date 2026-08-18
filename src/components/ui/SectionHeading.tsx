@@ -1,4 +1,5 @@
 import { cn } from "@/lib/cn";
+import { DecryptText } from "@/components/ui/DecryptText";
 
 interface SectionHeadingProps {
   eyebrow: string;
@@ -19,10 +20,8 @@ export function SectionHeading({ eyebrow, heading, className, muted }: SectionHe
         {eyebrow}
       </p>
       <h2 className="mt-3 font-display text-4xl font-medium uppercase leading-[0.95] tracking-tight sm:text-5xl md:text-6xl">
-        {heading.map((line) => (
-          <span key={line} className="block">
-            {line}
-          </span>
+        {heading.map((line, index) => (
+          <DecryptText key={line} text={line} delay={index * 120} className="block" />
         ))}
       </h2>
     </div>
