@@ -91,7 +91,9 @@ export async function GithubPanel({ dict }: { dict: Dictionary["github"] }) {
                     <span className="font-display text-base uppercase tracking-tight">
                       {repo.name}
                     </span>
-                    <span className="shrink-0 font-mono text-[10px] text-signal">★ {repo.stars}</span>
+                    <span className="inline-block shrink-0 bg-signal px-1 py-0.5 font-mono text-[10px] text-signal-ink">
+                      ★ {repo.stars}
+                    </span>
                   </div>
                   {repo.description && (
                     <p className="text-xs leading-relaxed text-paper/50">{repo.description}</p>

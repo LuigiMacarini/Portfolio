@@ -22,7 +22,7 @@ export function About({ dict }: { dict: Dictionary["about"] }) {
             <p className="mt-1 font-mono text-xs uppercase tracking-wide text-mist-500">
               {dict.education.school}
             </p>
-            <p className="mt-1 font-mono text-xs uppercase tracking-wide text-signal">
+            <p className="mt-1 inline-block bg-signal px-1.5 py-0.5 font-mono text-xs uppercase tracking-wide text-signal-ink">
               {dict.education.range}
             </p>
           </div>
@@ -49,7 +49,9 @@ export function About({ dict }: { dict: Dictionary["about"] }) {
             {dict.differentiators.map((item, index) => (
               <Reveal key={item.title} delay={index * 80}>
                 <div className="p-6">
-                  <span className="font-mono text-xs text-signal">{item.index}</span>
+                  <span className="inline-block bg-signal px-1 py-0.5 font-mono text-xs text-signal-ink">
+                    {item.index}
+                  </span>
                   <h3 className="mt-3 font-display text-xl uppercase tracking-tight">
                     {item.title}
                   </h3>

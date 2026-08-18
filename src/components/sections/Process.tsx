@@ -18,7 +18,9 @@ export function Process({ dict }: { dict: Dictionary["process"] }) {
           <Reveal key={step.index} delay={index * 50}>
             <li className="pb-10 last:pb-0">
               <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:gap-6">
-                <span className="font-mono text-xs text-signal">{step.index}</span>
+                <span className="inline-block bg-signal px-1 py-0.5 font-mono text-xs text-signal-ink">
+                  {step.index}
+                </span>
                 <h3 className="font-display text-xl uppercase tracking-tight sm:text-2xl">
                   {step.title}
                 </h3>

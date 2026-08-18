@@ -13,7 +13,7 @@ export function Hero({ dict }: { dict: Dictionary["hero"] }) {
             <p className="font-mono text-xs uppercase tracking-[0.15em] text-mist-500">{dict.eyebrow}</p>
           </Reveal>
           <Reveal delay={60}>
-            <p className="mt-6 font-mono text-xs uppercase tracking-[0.2em] text-signal">
+            <p className="mt-6 inline-block bg-signal px-1.5 py-0.5 font-mono text-xs uppercase tracking-[0.2em] text-signal-ink">
               {dict.kicker}
             </p>
           </Reveal>
@@ -54,7 +54,9 @@ export function Hero({ dict }: { dict: Dictionary["hero"] }) {
                     key={principle}
                     className="flex items-start gap-2 font-mono text-xs text-mist-500"
                   >
-                    <span className="text-signal">{String(index + 1).padStart(2, "0")}</span>
+                    <span className="inline-block bg-signal px-1 py-0.5 text-signal-ink">
+                      {String(index + 1).padStart(2, "0")}
+                    </span>
                     {principle}
                   </li>
                 ))}
