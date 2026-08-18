@@ -63,7 +63,7 @@ export function Hero({ dict }: { dict: Dictionary["hero"] }) {
 
         <div className="lg:col-span-5 lg:pl-4">
           <Reveal delay={120}>
-            <PhotoFrame label={dict.photoLabel} caption={dict.photoCaption} />
+            <PhotoFrame label={dict.photoLabel} caption={dict.photoCaption} src="/images/foto.jpeg" />
           </Reveal>
           <Reveal delay={200}>
             <dl className="mt-6 divide-y divide-line border border-line">

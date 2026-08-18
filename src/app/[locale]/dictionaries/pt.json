@@ -43,7 +43,7 @@
   },
   "about": {
     "eyebrow": "/02 · SOBRE",
-    "heading": ["A PONTE ENTRE", "NEGÓCIO E CÓDIGO"],
+    "heading": ["NEGÓCIOS", "E CÓDIGO"],
     "body": "Antes de escrever código eu procuro entender o problema. Essa visão vem da experiência como analista de negócios, cruzada com a prática de desenvolvimento full stack. O resultado é um jeito de trabalhar que passa por levantamento de requisitos, arquitetura e experiência do usuário antes de qualquer linha de código, com IA aplicada em boa parte do processo.",
     "differentiators": [
       {

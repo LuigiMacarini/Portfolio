@@ -1,12 +1,15 @@
 import { cn } from "@/lib/cn";
+import Image from "next/image";
 
 export function PhotoFrame({
   label,
   caption,
+  src,
   className,
 }: {
   label: string;
   caption: string;
+  src?: string;
   className?: string;
 }) {
   return (
@@ -16,19 +19,23 @@ export function PhotoFrame({
         className
       )}
     >
-      <span className="absolute left-0 top-0 h-3 w-3 border-l border-t border-ink/40" aria-hidden />
-      <span className="absolute right-0 top-0 h-3 w-3 border-r border-t border-ink/40" aria-hidden />
-      <span className="absolute bottom-0 left-0 h-3 w-3 border-b border-l border-ink/40" aria-hidden />
-      <span className="absolute bottom-0 right-0 h-3 w-3 border-b border-r border-ink/40" aria-hidden />
+      <span className="absolute left-0 top-0 z-10 h-3 w-3 border-l border-t border-ink/40" aria-hidden />
+      <span className="absolute right-0 top-0 z-10 h-3 w-3 border-r border-t border-ink/40" aria-hidden />
+      <span className="absolute bottom-0 left-0 z-10 h-3 w-3 border-b border-l border-ink/40" aria-hidden />
+      <span className="absolute bottom-0 right-0 z-10 h-3 w-3 border-b border-r border-ink/40" aria-hidden />
 
-      <div className="absolute left-3 top-3 font-mono text-[10px] uppercase tracking-wider text-mist-400">
+      <div className="absolute left-3 top-3 z-10 font-mono text-[10px] uppercase tracking-wider text-mist-400 mix-blend-difference text-paper">
         {label}
       </div>
 
-      <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 p-6 text-center">
-        <ScanIcon className="h-14 w-14 text-mist-300" />
-        <p className="font-mono text-[10px] uppercase tracking-wider text-mist-400">{caption}</p>
-      </div>
+      {src ? (
+        <Image src={src} alt={caption} fill className="object-cover grayscale" />
+      ) : (
+        <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 p-6 text-center">
+          <ScanIcon className="h-14 w-14 text-mist-300" />
+          <p className="font-mono text-[10px] uppercase tracking-wider text-mist-400">{caption}</p>
+        </div>
+      )}
     </div>
   );
 }
