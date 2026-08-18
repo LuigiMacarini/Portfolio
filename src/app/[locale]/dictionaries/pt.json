@@ -199,7 +199,20 @@
   },
   "stack": {
     "eyebrow": "/06 · STACK",
-    "heading": ["MINHA CAIXA", "DE FERRAMENTAS"],
+    "heading": ["MAPA DO", "SISTEMA"],
+    "map": {
+      "loading": "INICIALIZANDO STACK MAP...",
+      "online": "STACK MAP // ONLINE",
+      "progressLabel": "STACK MAP",
+      "panelLevel": "NÍVEL",
+      "fallbackNote": "Versão simplificada: modo 3D indisponível neste navegador ou desativado por preferência de movimento reduzido.",
+      "levels": [
+        { "id": "frontend", "label": "FRONTEND", "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript"] },
+        { "id": "backend", "label": "BACKEND", "items": ["Node.js", "NestJS", "Express", "Java"] },
+        { "id": "database", "label": "BANCO DE DADOS", "items": ["PostgreSQL", "MySQL"] },
+        { "id": "tools", "label": "MOBILE & FERRAMENTAS", "items": ["React Native", "Git", "GitHub", "Vercel", "Figma"] }
+      ]
+    },
     "categories": [
       { "id": "all", "label": "TODAS" },
       { "id": "frontend", "label": "FRONTEND" },

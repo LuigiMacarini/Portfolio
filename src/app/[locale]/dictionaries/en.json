@@ -199,7 +199,20 @@
   },
   "stack": {
     "eyebrow": "/06 · STACK",
-    "heading": ["MY", "TOOLBOX"],
+    "heading": ["SYSTEM", "MAP"],
+    "map": {
+      "loading": "INITIALIZING STACK MAP...",
+      "online": "STACK MAP // ONLINE",
+      "progressLabel": "STACK MAP",
+      "panelLevel": "LEVEL",
+      "fallbackNote": "Simplified version: 3D mode unavailable in this browser or turned off by a reduced motion preference.",
+      "levels": [
+        { "id": "frontend", "label": "FRONTEND", "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript"] },
+        { "id": "backend", "label": "BACKEND", "items": ["Node.js", "NestJS", "Express", "Java"] },
+        { "id": "database", "label": "DATABASE", "items": ["PostgreSQL", "MySQL"] },
+        { "id": "tools", "label": "MOBILE & TOOLS", "items": ["React Native", "Git", "GitHub", "Vercel", "Figma"] }
+      ]
+    },
     "categories": [
       { "id": "all", "label": "ALL" },
       { "id": "frontend", "label": "FRONTEND" },
