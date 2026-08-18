@@ -1,6 +1,5 @@
 import { Reveal } from "@/components/ui/Reveal";
 import { Button } from "@/components/ui/Button";
-import { PhotoFrame } from "@/components/ui/PhotoFrame";
 import { DecryptText } from "@/components/ui/DecryptText";
 import { Section } from "@/components/layout/Section";
 import type { Dictionary } from "@/app/[locale]/dictionaries";
@@ -62,11 +61,8 @@ export function Hero({ dict }: { dict: Dictionary["hero"] }) {
         </div>
 
         <div className="lg:col-span-5 lg:pl-4">
-          <Reveal delay={120}>
-            <PhotoFrame label={dict.photoLabel} caption={dict.photoCaption} src="/images/foto.jpeg" />
-          </Reveal>
           <Reveal delay={200}>
-            <dl className="mt-6 divide-y divide-line border border-line">
+            <dl className="divide-y divide-line border border-line">
               {dict.panel.map((row) => (
                 <div
                   key={row.label}
