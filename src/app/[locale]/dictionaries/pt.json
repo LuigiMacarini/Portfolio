@@ -34,13 +34,12 @@
     "principlesLabel": "PRINCÍPIOS",
     "principles": [
       "Resolver complexidade com simplicidade",
-      "Simples por fora, sólido por dentro",
       "Negócio e tecnologia na mesma frase",
       "Ideia vira produto rápido",
-      "IA integrada ao processo, não só discurso"
+      "IA integrada ao processo"
     ],
     "photoLabel": "IMG_LUIGI.01",
-    "photoCaption": "AGUARDANDO UPLOAD"
+    "photoCaption": "Foto"
   },
   "about": {
     "eyebrow": "/02 · SOBRE",
@@ -59,7 +58,7 @@
       },
       {
         "index": "03",
-        "title": "PRODUTO, NÃO SÓ CÓDIGO",
+        "title": "CONCEITOS DE PRODUTO",
         "description": "UX, escalabilidade e manutenção fazem parte da decisão técnica, não são detalhe posterior."
       }
     ],
@@ -86,13 +85,13 @@
       { "index": "01", "title": "PROBLEMA", "description": "Entender o problema real antes de qualquer solução." },
       { "index": "02", "title": "LEVANTAMENTO DE REQUISITOS", "description": "Conversar com quem vive o processo e mapear o que realmente importa." },
       { "index": "03", "title": "MODELAGEM DA SOLUÇÃO", "description": "Desenhar o fluxo antes de desenhar a tela." },
-      { "index": "04", "title": "UX", "description": "Simplicidade para quem usa, mesmo quando a lógica por trás é complexa." },
+      { "index": "04", "title": "UX", "description": "Simplicidade para quem usa." },
       { "index": "05", "title": "ARQUITETURA", "description": "Decisões técnicas pensando em escala e manutenção, não só no prazo." },
-      { "index": "06", "title": "DESENVOLVIMENTO", "description": "Código limpo, tipado e testável, sem over engineering." },
+      { "index": "06", "title": "DESENVOLVIMENTO", "description": "Código limpo, tipado e testável." },
       { "index": "07", "title": "IA PARA ACELERAR", "description": "IA no processo para ganhar velocidade, sem abrir mão de revisão crítica." },
       { "index": "08", "title": "TESTES", "description": "Validar antes que o usuário precise validar por mim." },
-      { "index": "09", "title": "DEPLOY", "description": "Publicar com CI/CD e rollback simples, sem drama." },
-      { "index": "10", "title": "MONITORAMENTO", "description": "Acompanhar o sistema em produção, não só entregar e esquecer." }
+      { "index": "09", "title": "DEPLOY", "description": "Publicar com CI/CD e rollback simples." },
+      { "index": "10", "title": "MONITORAMENTO", "description": "Acompanhar o sistema em produção." }
     ]
   },
   "experience": {
@@ -129,6 +128,7 @@
           "Versionamento e colaboração em equipe com Git."
         ],
         "tags": ["React", "React Native", "APIs REST", "Git"]
+        
       },
       {
         "company": "Luma",
@@ -164,14 +164,14 @@
       },
       {
         "name": "HOTEL MARAZUL",
-        "status": "EM PROTOTIPAGEM",
+        "status": "EM USO ATIVO",
         "active": true,
         "subtitle": "Sistema de gestão hoteleira",
         "problem": "Hotéis pequenos e médios dependem de planilhas e processos manuais.",
         "solution": "Sistema de gestão hoteleira, das reservas à operação diária.",
         "challenge": "Traduzir fluxos reais de um hotel em telas simples.",
         "tags": ["Figma", "React"],
-        "links": { "github": "", "live": "" }
+        "links": { "github": "https://github.com/Hotel-Marazul", "live": "" }
       },
       {
         "name": "GLPI MOBILE",
@@ -187,19 +187,19 @@
       {
         "name": "LEITOR DE CARTÃO SUS",
         "status": "FERRAMENTA INTERNA",
-        "active": false,
+        "active": true,
         "subtitle": "OCR para identificação do Cartão SUS",
         "problem": "Digitação manual do número do Cartão SUS causa erro e atraso no atendimento.",
         "solution": "Aplicação com OCR que lê o número do cartão direto da foto.",
         "challenge": "Manter precisão em condição real de câmera e iluminação.",
         "tags": ["React", "Java", "OCR"],
-        "links": { "github": "", "live": "" }
+        "links": { "github": "https://github.com/LuigiMacarini/LeitorSUS", "live": "" }
       }
     ]
   },
   "stack": {
     "eyebrow": "/06 · STACK",
-    "heading": ["MAPA DO", "SISTEMA"],
+    "heading": [ "STACKS"],
     "map": {
       "loading": "INICIALIZANDO STACK MAP...",
       "online": "STACK MAP // ONLINE",
