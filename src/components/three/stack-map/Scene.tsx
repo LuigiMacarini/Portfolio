@@ -12,8 +12,16 @@ if (typeof window !== "undefined") {
 }
 
 const LEVEL_GAP = 7;
-const START_Y = 3.4;
-const START_Z = 6.4;
+
+// Isometric-style orbit: rotated ~40° around the level (azimuth) and tilted
+// down ~33° (elevation), pulled back further than a straight top-down shot
+// so the whole plane reads as a rotated diamond, like the reference map.
+const AZIMUTH = 0.72;
+const ELEVATION = 0.58;
+const RADIUS = 11.5;
+const OFFSET_X = Math.sin(AZIMUTH) * RADIUS * Math.cos(ELEVATION);
+const OFFSET_Z = Math.cos(AZIMUTH) * RADIUS * Math.cos(ELEVATION);
+const OFFSET_Y = RADIUS * Math.sin(ELEVATION);
 
 function CameraRig({
   trackRef,
@@ -31,8 +39,8 @@ function CameraRig({
     const track = trackRef.current;
     if (!track) return;
 
-    camera.position.set(0, START_Y, START_Z);
-    camera.rotation.set(-0.4, 0, 0);
+    camera.position.set(OFFSET_X, OFFSET_Y, OFFSET_Z);
+    camera.lookAt(0, 0, 0);
     invalidate();
 
     const totalDepth = (levelCount - 1) * LEVEL_GAP;
@@ -43,9 +51,9 @@ function CameraRig({
       end: "bottom bottom",
       scrub: 0.8,
       onUpdate: (self) => {
-        camera.position.y = START_Y - self.progress * totalDepth;
-        camera.position.z = START_Z - self.progress * 1.6;
-        camera.rotation.x = -0.4 - self.progress * 0.05;
+        const targetY = -self.progress * totalDepth;
+        camera.position.set(OFFSET_X, targetY + OFFSET_Y, OFFSET_Z);
+        camera.lookAt(0, targetY, 0);
         invalidate();
 
         const index = Math.min(levelCount - 1, Math.round(self.progress * (levelCount - 1)));
